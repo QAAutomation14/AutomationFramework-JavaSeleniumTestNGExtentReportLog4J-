@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FB Automation Suite">
+    <listeners>
+        <listener class-name="org.fb.listeners.qa.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="org.fb.test.qa.LoginTest"/>
+        </classes>
+    </test>
+</suite>

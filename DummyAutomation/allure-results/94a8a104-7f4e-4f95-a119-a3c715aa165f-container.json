@@ -1,0 +1,1 @@
+{"uuid":"94a8a104-7f4e-4f95-a119-a3c715aa165f","name":"org.fb.test.qa.LoginTest.setUp","children":["f346d274-0d12-4973-b567-5af9cf7c1dba"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1766589666300,"stop":1766589673368}],"afters":[],"start":1766589666300,"stop":1766589673369}

@@ -1,0 +1,23 @@
+2025-12-24 20:46:47 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 20:48:01 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 20:51:14 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 20:51:14 INFO  LoginTest - The final result is PASS
+2025-12-24 20:52:50 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 21:03:14 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 21:03:14 FATAL LoginTest - Fatal Ignored
+2025-12-24 21:03:14 WARN  LoginTest - dghsdfjdsfb
+2025-12-24 21:03:14 DEBUG LoginTest - sgauhdsga
+2025-12-24 21:03:14 INFO  LoginTest - dbsjdfs
+2025-12-24 21:09:38 INFO  TestListener - Test execution is getting start
+2025-12-24 21:09:38 INFO  LoginTest - Browser is launching and URL Loading
+2025-12-24 21:09:38 FATAL LoginTest - Fatal Ignored
+2025-12-24 21:09:38 WARN  LoginTest - dghsdfjdsfb
+2025-12-24 21:09:38 DEBUG LoginTest - sgauhdsga
+2025-12-24 21:09:38 INFO  LoginTest - dbsjdfs
+2025-12-24 21:09:38 INFO  TestListener - Test failed
+2025-12-24 21:09:38 DEBUG TestListener - Test Debugg
+2025-12-24 21:09:40 INFO  TestListener - Test Finshed
+2025-12-24 21:10:52 INFO  TestListener - Test execution is getting start
+2025-12-24 21:10:52 INFO  TestListener - Test failed
+2025-12-24 21:10:52 DEBUG TestListener - Test Debugg
+2025-12-24 21:10:54 INFO  TestListener - Test Finshed
