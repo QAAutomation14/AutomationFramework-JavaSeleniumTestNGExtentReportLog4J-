@@ -1,26 +1,27 @@
 package org.fb.pages.qa;
 
 import org.fb.base.qa.BaseTest;
+import org.fb.base.qa.BaseTestFB;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class FBLoginPage extends BaseTest {
+public class FBLoginPage extends BaseTestFB {
 
 	public FBLoginPage() {
 
-		PageFactory.initElements(BaseTest.getDriver(), this);
+		PageFactory.initElements(driver, this);
 	}
 
 	@FindBy(id = "email")
-	private WebElement userName;
+	static private WebElement userName;
 
 	@FindBy(id = "pass")
-	private WebElement password;
+	static private WebElement password;
 
 	@FindBy(name = "login")
-	private WebElement loginBtn;
+	static private WebElement loginBtn;
 
 	public void login(String un, String pwd) {
 		userName.sendKeys(un);
