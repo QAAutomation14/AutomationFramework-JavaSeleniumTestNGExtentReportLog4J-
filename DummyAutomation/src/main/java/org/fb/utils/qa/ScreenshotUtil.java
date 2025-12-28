@@ -5,13 +5,14 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.fb.base.qa.BaseTestFB;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.google.common.io.Files;
 
-public class ScreenshotUtil {
+public class ScreenshotUtil extends BaseTestFB {
 
     private static final String SCREENSHOT_PATH ="C:\\EclipseWorkspace\\DummyAutomation\\Automationreports";
            // System.getProperty("user.dir") + "/screenshots/";
@@ -21,7 +22,7 @@ public class ScreenshotUtil {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String screenshotName = testName + "_" + timestamp + ".png";
 
-        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File srcFile = ((TakesScreenshot) BaseTestFB.driver).getScreenshotAs(OutputType.FILE);
         File destFile = new File(SCREENSHOT_PATH + screenshotName);
 
         try {
